@@ -9,7 +9,8 @@ pip install plotly
 pip install statistics
 ```
 [Also install a webdriver](https://chromedriver.chromium.org/downloads)<br>
-[You might also need to include it in system PATH](https://www.kenst.com/2015/03/including-the-chromedriver-location-in-macos-system-path/)
+[You might also need to include it in system PATH](https://www.kenst.com/2015/03/including-the-chromedriver-location-in-macos-system-path/) (MacOSX)
+[Windows](https://zwbetz.com/download-chromedriver-binary-and-add-to-your-path-for-automated-functional-testing/)
 
 ## How to run
 The student should pass login and password from [sigaa] as command line arguments
