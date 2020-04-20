@@ -58,6 +58,9 @@ class SigaaGradesMean():
                 discipline_name = discipline_info[1]
                 discipline_result = discipline_info[-3]
                 
+                if discipline_result.text == '--':
+                    continue
+                
                 result = round(float((discipline_result.text).replace(',', '.')), 2)
                 sum_grades.append(result)
                 
